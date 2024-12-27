@@ -45,7 +45,7 @@ const Navigation = () => {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="flex gap-3 mt-2 mb-4 text-xl justify-center font-mono md:hidden z-10 absolute top-full p-4 rounded-md shadow-lg bg-black">
+                <div className="flex gap-3 mt-2 mb-4 text-xl justify-center font-mono md:hidden z-10 absolute top-full p-4 rounded-md shadow-lg bg-background">
                     {links.map((link) => (
                         <AnchorLink
                             key={link.href}

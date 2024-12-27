@@ -3,13 +3,14 @@ import viteLogo from '/vite.svg'
 import Navigation from './Sections/Navigation'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
+import Cars from './Sections/Cars'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <main className='bg-black text-white'>
+    <main className='bg-background text-font'>
       <section className='h-fit w-full fixed top-0 z-50'>
         <nav><Navigation /></nav>
       </section>
@@ -25,7 +26,7 @@ function App() {
       </section>
       <section id='cars' className='h-fit w-full'>
         <div>
-          I am Cars section
+          <Cars />
         </div>
       </section>
       <section id='parts' className='h-fit w-full'>
