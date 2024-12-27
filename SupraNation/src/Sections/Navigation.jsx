@@ -36,7 +36,7 @@ const Navigation = () => {
             </div>
 
             <button
-                className="flex font-mono font-bold md:hidden mr-3"
+                className="flex font-mono font-bold md:hidden"
                 onClick={toggleMenu}
                 aria-label="Toggle Navigation Menu"
             >
@@ -45,7 +45,7 @@ const Navigation = () => {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="flex flex-col gap-3 mt-2 mb-4 text-xl font-mono md:hidden z-10 absolute top-full right-3 p-4 rounded-md shadow-lg bg-black">
+                <div className="flex gap-3 mt-2 mb-4 text-xl justify-center font-mono md:hidden z-10 absolute top-full p-4 rounded-md shadow-lg bg-black">
                     {links.map((link) => (
                         <AnchorLink
                             key={link.href}

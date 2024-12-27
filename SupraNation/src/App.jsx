@@ -2,6 +2,8 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import Navigation from './Sections/Navigation'
 import Hero from './Sections/Hero'
+import About from './Sections/About'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,20 +20,20 @@ function App() {
       </section>
       <section id='about' className='h-fit w-full'>
         <div>
-          I am About section
+          <About />
         </div>
       </section>
-      <section className='h-fit w-full'>
+      <section id='cars' className='h-fit w-full'>
         <div>
           I am Cars section
         </div>
       </section>
-      <section className='h-fit w-full'>
+      <section id='parts' className='h-fit w-full'>
         <div>
           I am Parts section
         </div>
       </section>
-      <section className='h-fit w-full'>
+      <section id='blogs' className='h-fit w-full'>
         <div>
           I am Blog section
         </div>
