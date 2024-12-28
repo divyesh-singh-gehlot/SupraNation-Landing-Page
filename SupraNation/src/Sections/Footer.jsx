@@ -10,13 +10,13 @@ const Footer = () => {
         <h1 className='text-2xl font-mono'>Social Media:</h1>
         <div>
             <div className='flex place-self-center gap-10 my-5'>
-                <FaLinkedinIn color='white' href='https://www.linkedin.com/in/divyesh-singh-gehlot-792055295/' size={25}/>
-                <FiGithub color='white' href='https://github.com/divyesh-singh-gehlot' size={25}/>
+                <a href="https://www.linkedin.com/in/divyesh-singh-gehlot-792055295/"><FaLinkedinIn color='white' size={25}/></a>
+                <a href="https://github.com/divyesh-singh-gehlot"><FiGithub color='white' size={25}/></a>
             </div>
         </div>
       </div>
-      <div className='flex gap-1 justify-center items-center font-mono'>
-      <p className='text-sm md:text-lg'>Built by <a href="https://www.linkedin.com/in/divyesh-singh-gehlot-792055295/">Divyesh Singh Gehlot </a> with</p>
+      <div className='flex gap-2 justify-center items-center font-mono'>
+      <p className='text-sm md:text-lg'>Built by <a href="https://www.linkedin.com/in/divyesh-singh-gehlot-792055295/"><span className='font-extrabold underline'>Divyesh Singh Gehlot</span> </a> with</p>
       <IoIosHeart color='red' size={18}/>
       </div>
     </div>
