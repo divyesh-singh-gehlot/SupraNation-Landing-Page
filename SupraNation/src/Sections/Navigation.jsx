@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { FaGripLines } from "react-icons/fa6";
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,12 +41,12 @@ const Navigation = () => {
                 onClick={toggleMenu}
                 aria-label="Toggle Navigation Menu"
             >
-                Navbar
+              <FaGripLines color='white' size={25} />  
             </button>
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="flex gap-3 mt-2 mb-4 text-xl justify-center font-mono md:hidden z-10 absolute top-full p-4 rounded-md shadow-lg bg-background">
+                <div className="flex gap-3 mt-2 mb-4 text-xl flex-col text-center justify-center font-mono md:hidden z-10 absolute top-full p-4 rounded-md shadow-lg bg-background">
                     {links.map((link) => (
                         <AnchorLink
                             key={link.href}

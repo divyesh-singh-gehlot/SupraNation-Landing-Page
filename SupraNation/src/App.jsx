@@ -4,6 +4,8 @@ import Navigation from './Sections/Navigation'
 import Hero from './Sections/Hero'
 import About from './Sections/About'
 import Cars from './Sections/Cars'
+import Blogs from './Sections/Blogs'
+import Footer from './Sections/Footer'
 
 
 function App() {
@@ -29,19 +31,14 @@ function App() {
           <Cars />
         </div>
       </section>
-      <section id='parts' className='h-fit w-full'>
-        <div>
-          I am Parts section
-        </div>
-      </section>
       <section id='blogs' className='h-fit w-full'>
         <div>
-          I am Blog section
+          <Blogs />
         </div>
       </section>
-      <section className='h-fit w-full'>
+      <section className='md:h-fit w-full bg-[rgba(20,20,20,1)] p-10'>
         <div>
-          I am Footer section
+          <Footer />
         </div>
       </section>
     </main>
