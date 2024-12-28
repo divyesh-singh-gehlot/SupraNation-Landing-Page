@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
+import supraLogo from '/supra.svg'
 import Navigation from './Sections/Navigation'
 import Hero from './Sections/Hero'
 import About from './Sections/About'

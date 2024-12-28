@@ -10,7 +10,7 @@ const About = () => {
         <img src={aboutImage} alt="about-image" className='w-5/6 md:h-96 object-cover ' />
       </div>
       <div className='text-sm font-mono flex flex-col justify-self-center mt-3 w-5/6 md:text-2xl md:w-full'>
-        <p className='mt-3 md:mb-5'>SupraFever is a hub for Toyota Supra enthusiasts worldwide. Whether you're an owner, an admirer, or a future driver, we’re here to celebrate the Supra’s legacy and connect fans across the globe.</p>
+        <p className='mt-3 md:mb-5'>SupraNation is a hub for Toyota Supra enthusiasts worldwide. Whether you're an owner, an admirer, or a future driver, we’re here to celebrate the Supra’s legacy and connect fans across the globe.</p>
         <ul>
           <li className='mt-3 md:mb-5'>Our Mission: To fuel the Supra community with information, upgrades, and inspiration.</li>
           <li className='mt-3 mb-3'>Join Us: Be part of the growing Supra family.</li>
